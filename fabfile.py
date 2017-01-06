@@ -16,8 +16,8 @@ from fabric.contrib.project import rsync_project
 # env.use_ssh_config = True
 env.user = 'ubuntu'
 # env.password = 'rtmap2013'
-env.hosts = ['54.200.138.17', ]
-env.key_filename = 'conseweb.pem'
+env.hosts = ['35.167.1.149', ]
+# env.key_filename = 'conseweb.pem'
 env.roledefs = {
     'test': ['115.28.171.71']
 }
@@ -102,10 +102,10 @@ def quit_circusd():
     run("/usr/local/bin/circusctl quit")
 
 def start():
-    run("/usr/local/bin/circusctl start mojing")
+    run("/usr/local/bin/circusctl start conseweb")
 
 def stop():
-    run("/usr/local/bin/circusctl stop mojing")
+    run("/usr/local/bin/circusctl stop conseweb")
 
 def build():
     with shell_env(GOROOT="/home/ubuntu/go", GOPATH="/home/ubuntu/gopath"):

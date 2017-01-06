@@ -53,12 +53,12 @@ func main() {
 	}))
 
 	m.Get("/index", index)
-	m.Get("/about", about)
-	m.Get("/faqs", faqs)
-	m.Get("/blog", blog)
-	m.Get("/contact", contact)
-	m.Get("/jobs", jobs)
-	m.Get("/jobdetail", jobdetail)
+	// m.Get("/about", about)
+	// m.Get("/faqs", faqs)
+	// m.Get("/blog", blog)
+	// m.Get("/contact", contact)
+	// m.Get("/jobs", jobs)
+	// m.Get("/jobdetail", jobdetail)
 
 	// m.Group("/demos/restaurant_picker", func(r martini.Router) {
 	// 	r.Get("", restaurants)
