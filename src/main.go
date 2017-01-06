@@ -52,6 +52,7 @@ func main() {
 		Layout: "layout", // Specify a layout template. Layouts can call {{ yield }} to render the current template.
 	}))
 
+	m.Get("/", index)
 	m.Get("/index", index)
 	// m.Get("/about", about)
 	// m.Get("/faqs", faqs)
