@@ -94,6 +94,13 @@ def deploy_proj(loc):
     build()
     start()
 
+
+def restart():
+    stop()
+    build()
+    start()
+
+
 def start_circusd():
     with cd(remote_working_dir):
         run("/usr/local/bin/circusd --daemon circus.ini")
@@ -108,9 +115,9 @@ def stop():
     run("/usr/local/bin/circusctl stop conseweb")
 
 def build():
-    with shell_env(GOROOT="/home/ubuntu/go", GOPATH="/home/ubuntu/gopath"):
+    with shell_env(GOROOT="/usr/lib/go-1.6", GOPATH="/home/ubuntu/gopath"):
         with cd(remote_working_dir):
-            run('/home/ubuntu/go/bin/go build -o bin/conseweb src/main.go', shell=False)
+            run('/usr/bin/go build -o bin/conseweb src/main.go', shell=False)
             #run('/usr/bin/scons ', shell=True)
 
 
