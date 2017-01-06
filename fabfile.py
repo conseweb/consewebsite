@@ -23,7 +23,7 @@ env.roledefs = {
 }
 
 remote_home = '/home/ubuntu'
-remote_working_dir = '/home/ubuntu/workspace/conseweb'
+remote_working_dir = '/home/ubuntu/workspace/deploy'
 
 def host_type():
     run('uname -s')
