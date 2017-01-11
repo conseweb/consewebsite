@@ -34,14 +34,14 @@ import sys
 import os
 
 # SConstruct
-env = Environment(TOOLS=['default', 'go'], ENV = {'PATH' : os.environ['PATH']+':/home/ubuntu/go/bin'})
+env = Environment(TOOLS=['default', 'go'], ENV = {'PATH' : os.environ['PATH']})
 #env.Append(GO_LIBPATH = [''])
 env.Decider('MD5')
 
 srclist = ['src/main.go']
 
 # A simple program
-env.GoProgram('bin/mojing', srclist)
+env.GoProgram('bin/conseweb', srclist)
 
 # Decider('MD5-timestamp')
 
