@@ -1,0 +1,7 @@
+;[appdockerservers]
+;127.0.0.1         ansible_ssh_port=2222     ansible_ssh_user=root
+
+[web]
+35.167.1.149	ansible_ssh_user=ubuntu
+
+
