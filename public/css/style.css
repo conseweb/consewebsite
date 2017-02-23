@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
 /*
@@ -6682,14 +6683,14 @@ body.landing-page {
   background: inherit;
 }
 .landing-page .nav > li > a {
-  padding: 25px 10px 15px 10px;
+  padding:25px 15px 15px 15px;
 }
 .landing-page .navbar-scroll .navbar-nav > li > a {
   padding: 20px 10px;
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
-  border-top: 6px solid #1ab394;
+  border-bottom: 2px solid #75C23E;
 }
 .landing-page .navbar-fixed-top {
   border: none !important;
