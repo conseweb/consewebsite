@@ -5174,6 +5174,59 @@ table.issue-tracker tbody tr td {
   display: block;
 }
 /* TEAMS */
+.team .til-img{
+  left: 8px;
+  position: relative;
+  position: relative;
+  bottom: 20px;
+}
+.gray-pe .inv-talen{
+  font-size: 15px;
+}
+.gray-pe .inv-app-a1{
+  margin-right: 30px;
+  background:url("../img/title/boss.png") no-repeat;
+}
+.gray-pe .inv-app-a2{
+  background:url("../img/title/lagou.png") no-repeat;
+}
+.gray-pe .inv-talen a{
+  display: block;
+  width: 85px;
+  height: 85px;
+  float: left;
+
+}
+.gray-pe .inv-talen p{
+  color:#6C6C6C;
+  font-weight: 700;
+  font-size: 15px;
+}
+.gray-pe .inv-talen span{
+  color:#A3A3A3;
+  font-weight: 600;
+}
+.gray-pe .til-img{
+  left: 8px;
+  position: relative;
+  position: relative;
+  bottom: 20px;
+
+}
+.gray-pe img.img-responsive{
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+.team img.img-responsive{
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
 .team-members {
   margin: 10px 0;
 }
@@ -6561,6 +6614,7 @@ body.landing-page {
 }
 .landing-page span.navy {
   color: #1ab394;
+  font-size: 20px;
 }
 .landing-page p.text-color {
   color: #676a6c;
@@ -6575,17 +6629,23 @@ body.landing-page {
 .landing-page section p {
   color: #aeaeae;
   font-size: 13px;
+  margin-top: 20px;
 }
 .landing-page address {
   font-size: 13px;
+}
+.gray-section address strong{
+  line-height: 50px;
 }
 .landing-page h1 {
   margin-top: 10px;
   font-size: 30px;
   font-weight: 200;
+  margin-bottom: 28px;
 }
 .container .technology{
   text-align: center;
+  padding: 0 0 0 32px;
 }
 .container .technology i{
   margin-bottom: 15px;
@@ -6662,6 +6722,8 @@ body.landing-page {
   color: #fff;
 }
 .landing-page .navbar-default .navbar-brand {
+  left: 19px;
+  position: relative;
   line-height: 50px;
   text-align:right;
   color: #fff;
@@ -6702,6 +6764,10 @@ body.landing-page {
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
   color:#75C23E;
   border-bottom: 2px solid #75C23E;
+}
+.landing-page .navbar-default .navbar-nav > .active > a.link-last,
+.landing-page .navbar-default .navbar-nav > .active > a:hover.link-last{
+  border-bottom:none;
 }
 .landing-page .navbar-fixed-top {
   border: none !important;
@@ -6807,7 +6873,7 @@ body.landing-page {
   font-size: 24px;
 }
 @media screen and (min-width: 1200px) {
-  .pageTitle:before, .pageTitle:after {
+  /*.pageTitle:before, .pageTitle:after {
     content: "";
     display: block;
     position: absolute;
@@ -6815,7 +6881,7 @@ body.landing-page {
     width: 40px;
     height: 2px;
     background: #000;
-  }
+  }*/
   .pageTitle:before {
     right: 289px;
   }
@@ -6863,7 +6929,7 @@ body.landing-page {
   font-weight: 300;
   text-transform: uppercase;
   text-shadow: none;
-  text-align: center
+  text-align: left;
 }
 .landing-page .caption-link {
   color: #fff;
@@ -7141,12 +7207,15 @@ body.landing-page {
   }
   .landing-page .carousel-caption p {
     margin-bottom: 60px;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.4;
   }
   .landing-page .featurette-heading {
     font-size: 50px;
   }
+}
+.carousel-caption>p{
+  text-align: left;
 }
 @media (max-width: 992px) {
   .landing-page .carousel-image {
@@ -8329,4 +8398,32 @@ body.md-skin {
   #page-wrapper {
     margin: 0;
   }
+}
+.gray-pe .container{
+  text-align: center;
+  padding: 70px 0 20px 0
+}
+.gray-pe .container h1{
+  color: #000000;
+  margin-bottom: 41px;
+}
+.til-img{
+  transform:scale(0.6);
+  -webkit-transform:scale(0.6);
+  -ms-transform:scale(0.6);
+  -o-transform:scale(0.6);
+  -moz-transform:scale(0.6);
+}
+.tech-top-m{
+  margin-top:20px;
+}
+/*滚动样式*/
+.navbar-scroll .container div ul li{
+  padding:0 10px;
+}
+.navbar-scroll .container div ul li.active a {
+  color: #75C23E;
+}
+.clear{
+  clear:both;
 }
