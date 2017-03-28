@@ -7960,7 +7960,6 @@ body.landing-page {
 .landing-page section p {
     color: #aeaeae;
     font-size: 13px;
-    margin-top: 20px;
 }
 
 .landing-page address {
@@ -8741,7 +8740,6 @@ body.landing-page {
     }
 
     .landing-page .navbar .navbar-brand {
-        margin-top: -8px;
         border-radius: 5px;
         font-size: 12px;
         padding: 27px;
