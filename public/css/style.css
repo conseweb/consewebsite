@@ -8157,7 +8157,7 @@ body.landing-page {
 }
 
 .landing-page .header-back.two {
-    background: url('../img/landing/header_three.jpg') 50% 0 no-repeat;
+    background: url('../img/landing/header_three.jpg') 50% 0 repeat;
 }
 
 .landing-page .carousel {
