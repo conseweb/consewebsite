@@ -687,7 +687,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .navbar-toggle {
     background-color: #1ab394;
     color: #fff;
-    padding: 6px 12px;
+    /*padding: 6px 12px;*/
     font-size: 14px;
 }
 
@@ -6276,7 +6276,6 @@ table.issue-tracker tbody tr td {
 .team .til-img {
     left: 8px;
     position: relative;
-    position: relative;
     bottom: 20px;
 }
 
@@ -8075,21 +8074,21 @@ body.landing-page {
 
 .landing-page .navbar-default .navbar-brand {
     margin-top: 20px;
-    left: 19px;
+    /*left: 19px;*/
     position: relative;
-    line-height: 50px;
-    text-align: right;
+    /*line-height: 50px;*/
+    /*text-align: right;*/
     color: #fff;
-    height: auto;
+    /*height: auto;*/
     display: block;
-    font-size: 35px;
+    /*font-size: 35px;*/
     background: url("../img/logo.png") no-repeat;
     width: 177px;
-    height: 80px;
-    border-radius: 0 0 5px 5px;
-    font-weight: 700;
+    /*height: 80px;*/
+    /*border-radius: 0 0 5px 5px;*/
+    /*font-weight: 700;*/
     transition: all 0.3s ease-in-out 0s;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 .landing-page .navbar-scroll.navbar-default .nav li a {
@@ -8702,7 +8701,7 @@ body.landing-page {
     }
 
     .landing-page .navbar.navbar-scroll .navbar-brand {
-        margin-top: 6px;
+        margin-top: 25px;
     }
 
     .landing-page .navbar-default {
@@ -8742,7 +8741,7 @@ body.landing-page {
     .landing-page .navbar .navbar-brand {
         border-radius: 5px;
         font-size: 12px;
-        padding: 27px;
+        padding-top: 30px;
         height: auto;
     }
 
@@ -8775,7 +8774,7 @@ body.landing-page {
 
     .landing-page .navbar .navbar-header .navbar-toggle {
         background-color: #ffffff;
-        padding: 9px 10px;
+        padding-top: 30px;
         border: none;
     }
 }
