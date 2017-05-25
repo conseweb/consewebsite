@@ -38,6 +38,10 @@ func jobdetail(r render.Render) {
 	r.HTML(200, "jobdetail", "") // hello is the template's name
 }
 
+func ico(r render.Render) {
+	r.HTML(200, "ico", "ico")
+}
+
 func main() {
 	m := martini.Classic()
 	// m.Get("/", func() string {
@@ -54,6 +58,7 @@ func main() {
 
 	m.Get("/", index)
 	m.Get("/index", index)
+	m.Get("/ico", ico)
 	// m.Get("/about", about)
 	// m.Get("/faqs", faqs)
 	// m.Get("/blog", blog)
